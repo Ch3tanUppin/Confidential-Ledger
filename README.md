@@ -17,8 +17,3 @@ This repository contains a **production-grade infrastructure and code scaffold**
 
 This is **not a demo app** and **not a turnkey deployment**.  
 It is a **correct, reviewable, extensible foundation** for building a production system.
-
----
-
-## High-Level Architecture
-
