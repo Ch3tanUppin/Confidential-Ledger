@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: attestation-verifier
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: verifier
+  template:
+    metadata:
+      labels:
+        app: verifier
+    spec:
+      containers:
+      - name: verifier
+        image: verifier-service:latest
+        ports:
+        - containerPort: 7000

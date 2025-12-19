@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cyborgdb
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: cyborgdb
+  template:
+    metadata:
+      labels:
+        app: cyborgdb
+    spec:
+      containers:
+      - name: cyborgdb
+        image: cyborgdb:secure

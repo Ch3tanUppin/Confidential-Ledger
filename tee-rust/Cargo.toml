@@ -1,0 +1,4 @@
+[package]
+name = "tee"
+version = "0.1.0"
+edition = "2021"

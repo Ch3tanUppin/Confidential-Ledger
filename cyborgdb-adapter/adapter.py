@@ -1,0 +1,1 @@
+# CyborgDB adapter stub
